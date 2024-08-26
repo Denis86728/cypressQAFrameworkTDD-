@@ -14,9 +14,9 @@ describe('Home Page Tests', () => {
         homePage.getLogoButton().click()
         basePage.assertEqualsUrl("https://demoqa.com/")
     });
-    // it('Click on Banner button', () => {
-    //     homePage.getHomeBannerButton().should("be.visible")
-    //     homePage.getHomeBannerButton().click()
+    it('Click on Banner button', () => {
+        homePage.getHomeBannerButton().should("be.visible")
+        homePage.getHomeBannerButton().click()
         
-    // });
+    });
 });
